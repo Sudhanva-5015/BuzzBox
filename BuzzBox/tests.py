@@ -19,10 +19,10 @@ try:
 
     # Login
     username = wait.until(EC.presence_of_element_located((By.NAME, "username")))
-    username.send_keys("yashu")  # Replace with your test username
+    username.send_keys("yashvin")  # Replace with your test username
 
     password = browser.find_element(By.NAME, "password")
-    password.send_keys("333333")  # Replace with your test password
+    password.send_keys("8618776558")  # Replace with your test password
     password.send_keys(Keys.RETURN)
 
     # Wait for the redirection to the home page and check for a specific element
